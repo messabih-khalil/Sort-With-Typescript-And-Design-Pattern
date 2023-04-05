@@ -1,21 +1,21 @@
 export class NumberCollection {
-  constructor(public collection: number[]) {}
+  constructor(public data: number[]) {}
   // Get Length
-  get length() {
-    return this.collection.length;
+  get length(): number {
+    return this.data.length;
   }
 
   // Compare two element from the list
 
   compare(leftIdx: number, rightIdx: number): boolean {
-    return this.collection[leftIdx] > this.collection[rightIdx];
+    return this.data[leftIdx] > this.data[rightIdx];
   }
 
   // Swap array elements
   swap(leftIdx: number, rightIdx: number): void {
-    [this.collection[leftIdx], this.collection[rightIdx]] = [
-      this.collection[rightIdx],
-      this.collection[leftIdx],
+    [this.data[leftIdx], this.data[rightIdx]] = [
+      this.data[rightIdx],
+      this.data[leftIdx],
     ];
   }
 }
