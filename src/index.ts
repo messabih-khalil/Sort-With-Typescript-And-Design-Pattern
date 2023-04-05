@@ -1,9 +1,18 @@
-import { NumberCollection } from './NumberCollection';
-import { Sorter } from './Sorter';
+// import { NumberCollection } from './NumberCollection';
+// import { Sorter } from './Sorter';
+// import { StringCollection } from './StringCollection';
 
-const sorter = new Sorter(new NumberCollection([10, 3, -5, 0]));
-console.log('Before : ', sorter.collection.collection);
+// // Test Sort list of number
+// const numbers = new NumberCollection([5, 0, 4, 7, 3, 9]);
+// const sorter = new Sorter(numbers);
+// console.log('Before : ', numbers.data);
+// sorter.sort();
+// console.log('After : ', numbers.data);
 
-sorter.sort();
+// // Test Sort a string
 
-console.log('After : ', sorter.collection.collection);
+// const string = new StringCollection('GlWRXFkoFRA');
+// const sorter2 = new Sorter(string)
+// console.log('Before : ', string.data);
+// sorter2.sort();
+// console.log('After : ', string.data);
