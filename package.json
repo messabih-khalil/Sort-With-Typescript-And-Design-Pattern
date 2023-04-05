@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22"
+  },
+  "name": "sort",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/messabih-khalil/Sort-With-Typescript-And-Design-Pattern.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/messabih-khalil/Sort-With-Typescript-And-Design-Pattern/issues"
+  },
+  "homepage": "https://github.com/messabih-khalil/Sort-With-Typescript-And-Design-Pattern#readme",
+  "description": ""
+}
